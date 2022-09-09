@@ -1,0 +1,19 @@
+{
+  "name": "petshopakira",
+  "version": "1.0.0",
+  "description": "pagina tienda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miky14n/PetShopAkira.git"
+  },
+  "author": "Jonatan Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miky14n/PetShopAkira/issues"
+  },
+  "homepage": "https://github.com/miky14n/PetShopAkira#readme"
+}
