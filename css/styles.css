@@ -1,10 +1,16 @@
   body{
-    background-image: url("../img/tipografia.png") ;
+    height: 100%;
+    margin: 0;
+  }
+  .backgrounds{
+    background: url("../img/tipografia.png")  ;
     background-repeat: no-repeat;
     background-attachment: local;  
-    background-size: 100% auto;
+    /*background-size: 100% auto;*/
     background-position: center;
-    
+    background-size: cover;
+    height: 100%; 
+    opacity: 0.1;
   }
   .logo-img {
     width: min(50vw, 300px);
@@ -18,10 +24,10 @@
   }
   
   button{
-    background-color: #CEECF2;
-    color: #163760;
+    background-color: #864421;
+    color: #fdfdfd;
     padding: 16px 30px;
-    border: 3px solid   #023859;
+    border: 3px solid   #030303;
     width: 200px;
     display: block;
     margin: 10px 4px;
@@ -32,11 +38,19 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    position: absolute;
   }
   .location{
-    top: 60%;
     position: absolute;
+    text-decoration:none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .phone-number{
+    text-decoration:none;
+    position: absolute;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
